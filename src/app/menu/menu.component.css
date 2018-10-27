@@ -1,0 +1,11 @@
+:host {
+    background-color: aliceblue;
+    display: block;
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 5px;
+}

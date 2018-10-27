@@ -1,0 +1,18 @@
+<h5>
+  <b>MENU</b>
+</h5>
+<ul class="text-left">
+  <li uiSref="app.agregador.tela" uiSrefActive="active">home (aka tela)</li>
+
+  <li uiSref="app.agregador.tela.extra" uiSrefActive="active">extra (link com state)</li>
+
+  <li (click)="goTo('app.agregador.tela.extra2')" uiSrefActive="active">extra2 (link com método)</li>
+
+  <li uiSref="app.agregador.tela.extra2.extra" uiSrefActive="active">extra2 -> extra</li>
+
+  <li (click)="transitionOnView('footer', 'ExtraComponent')">troca somente a view</li>
+
+  <li uiSref="app.agregador.tela.extra3" uiSrefActive="active">caminho absoluto</li>
+
+  <li uiSref="app.agregador.tela" uiSrefActive="active">Voltando parte</li>
+</ul>
